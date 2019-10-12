@@ -9,7 +9,7 @@ text = ""
 
 for l in lines:
 	text += l[1]
-	text += ". "
+	text += " \n"
 
 f = open("all_text.txt", "a")
 f.write(text)
